@@ -2,8 +2,11 @@
 
 This project creates a simple simulation environment inspired by a grid-based version of **Angry Birds**. In this game-like setting, a "yellow bird" (the agent) learns to move across an **8x8 grid** from the top-left corner `(0, 0)` to the bottom-right corner `(7, 7)`, where a "blue bird" awaits. Along the way, the agent encounters different objects, such as pigs or rocks, that provide rewards or penalties based on type of object. Additionally, the agent's movements are not always predictable, as random factors cause it to move differently than intended which adds more complexity to navigation problem. This project uses the **Q-learning** algorithm to teach the agent how to make better decisions over time.
 
+<br>
 
----
+https://github.com/user-attachments/assets/4c07e11e-5f3b-4248-a8fc-c9ff9f21db11
+
+<br>
 
 ## **Environment**
 
@@ -19,6 +22,7 @@ The environment includes the following attributes:
   
 - **Stochastic Behavior**: The agent can move up, down, left, or right, but due to stochasticity, it may not always move in the intended direction.
 
+<br>
 
 ## **How to Run**
 
@@ -38,7 +42,7 @@ The environment includes the following attributes:
    - The agent's policy will be visualized on the grid.  
    - Value difference charts will be plotted to track convergence over episodes.
 
-
+<br>
 
 ## **Features**
 
@@ -51,6 +55,8 @@ The environment includes the following attributes:
 - **Visualization Tools**:
   Plot policy maps and value difference charts to analyze learning progress and convergence.
 
+<br>
+
 ## **Source Files**
 
 ```plaintext
@@ -62,8 +68,7 @@ The environment includes the following attributes:
 └── analysis.py       # Provides functions to visualize policy and learning metrics
 ```
 
----
-
+<br>
 
 ## **Learning Convergence**
 
@@ -73,6 +78,7 @@ To verify learning convergence:
 
 - A decreasing Value Difference indicates convergence. Learning stops when the value difference becomes sufficiently small.
 
+<br>
 
 ## **License**
 
