@@ -1,4 +1,4 @@
-# **Unknown Angry Birds: Reinforcement Learning in a Grid Environment**
+# **Angry Bird agent: Reinforcement Learning in a Grid Environment**
 
 This project creates a simple simulation environment inspired by a grid-based version of **Angry Birds**. In this game-like setting, a "yellow bird" (the agent) learns to move across an **8x8 grid** from the top-left corner `(0, 0)` to the bottom-right corner `(7, 7)`, where a "blue bird" awaits. Along the way, the agent encounters different objects, such as pigs or rocks, that provide rewards or penalties based on type of object. Additionally, the agent's movements are not always predictable, as random factors cause it to move differently than intended which adds more complexity to navigation problem. This project uses the **Q-learning** algorithm to teach the agent how to make better decisions over time.
 
